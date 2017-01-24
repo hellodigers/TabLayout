@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TabLayout_Example' do
+  pod 'TabLayout', :path => '../'
+
+  target 'TabLayout_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
