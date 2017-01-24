@@ -1,25 +1,91 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="TabLayout_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WwW-hH-xfv" customClass="TabLayout" customModule="TabLayout">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Ry7-7X-9gc"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="scrollView" destination="IPd-AR-GBb" id="oPb-Fk-Sc3"/>
+                                </connections>
+                            </scrollView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IPd-AR-GBb">
+                                <rect key="frame" x="0.0" y="63" width="375" height="604"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="IPd-AR-GBb" secondAttribute="trailing" id="0jB-FE-7Mp"/>
+                            <constraint firstItem="IPd-AR-GBb" firstAttribute="top" secondItem="WwW-hH-xfv" secondAttribute="bottom" id="KYu-i2-Q8K"/>
+                            <constraint firstItem="IPd-AR-GBb" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="TAR-wK-vhn"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="IPd-AR-GBb" secondAttribute="bottom" id="cvQ-ne-Zt1"/>
+                            <constraint firstItem="WwW-hH-xfv" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="f9U-xF-3hQ"/>
+                            <constraint firstItem="WwW-hH-xfv" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="g0u-Px-qhc"/>
+                            <constraint firstAttribute="trailing" secondItem="WwW-hH-xfv" secondAttribute="trailing" id="j3Y-sm-GmA"/>
+                            <constraint firstItem="IPd-AR-GBb" firstAttribute="top" secondItem="WwW-hH-xfv" secondAttribute="bottom" id="x8h-1W-0RS"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="tabLayout" destination="WwW-hH-xfv" id="pLf-q4-572"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="24.800000000000001" y="35.532233883058474"/>
+        </scene>
+        <!--Sample View Controller-->
+        <scene sceneID="tIH-FJ-Gmw">
+            <objects>
+                <viewController storyboardIdentifier="SampleViewController" id="Qjh-2o-oQf" customClass="SampleViewController" customModule="TabLayout_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="l8Y-53-1Mh"/>
+                        <viewControllerLayoutGuide type="bottom" id="T08-XA-kzT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="iKq-Rb-DBm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d9J-Wi-hzp">
+                                <rect key="frame" x="166" y="323" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="d9J-Wi-hzp" firstAttribute="centerX" secondItem="iKq-Rb-DBm" secondAttribute="centerX" id="5qm-xW-LDN"/>
+                            <constraint firstItem="d9J-Wi-hzp" firstAttribute="centerY" secondItem="iKq-Rb-DBm" secondAttribute="centerY" id="Lr5-xx-V7g"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="label" destination="d9J-Wi-hzp" id="Q3g-ye-ctk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KnE-10-zSG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="25" y="690"/>
         </scene>
     </scenes>
 </document>

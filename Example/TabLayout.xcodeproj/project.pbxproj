@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1093AC9A9C72443E1D3F2088 /* Pods_TabLayout_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 725EAB99809E364243A806D6 /* Pods_TabLayout_Example.framework */; };
 		2D731FE10677BDEA4A6C8751 /* Pods_TabLayout_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7924EABC6DB2DF4C4508F7CC /* Pods_TabLayout_Tests.framework */; };
+		4EAD80771E378C600086B19B /* SampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAD80761E378C600086B19B /* SampleViewController.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -30,6 +31,7 @@
 /* Begin PBXFileReference section */
 		01C8BC9F24FF53B8532DB364 /* Pods-TabLayout_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabLayout_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TabLayout_Tests/Pods-TabLayout_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		26F0C6DD5C2B750B0556DE2B /* Pods-TabLayout_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabLayout_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-TabLayout_Example/Pods-TabLayout_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4EAD80761E378C600086B19B /* SampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleViewController.swift; sourceTree = "<group>"; };
 		5C60A56C94FD2C43E1C8EF25 /* TabLayout.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TabLayout.podspec; path = ../TabLayout.podspec; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* TabLayout_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabLayout_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
+				4EAD80761E378C600086B19B /* SampleViewController.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
@@ -363,6 +366,7 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				4EAD80771E378C600086B19B /* SampleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

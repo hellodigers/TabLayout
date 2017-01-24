@@ -1,22 +1,23 @@
 {
   "name": "TabLayout",
   "version": "0.1.0",
-  "summary": "A short description of TabLayout.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/TabLayout",
+  "summary": "Android TabLayout for iOS.",
+  "description": "Android TabLayout and ViewPager for iOS.",
+  "homepage": "https://github.com/hellodigers/TabLayout",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "hellodigers": "bartosz.kozajda@dige.pl"
+    "Digers": "bartosz.kozajda@dige.pl"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/TabLayout.git",
+    "git": "https://github.com/hellodigers/TabLayout.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "TabLayout/Classes/**/*"
+  "source_files": "TabLayout/Classes/**/*",
+  "frameworks": "UIKit"
 }

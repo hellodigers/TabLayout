@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01A33342A845F7910B99D3A32843996F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		25F13117BEB0116E72EB64B7E9345285 /* TabLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B382600593262367FFD769A8C4D4BFC3 /* TabLayout-dummy.m */; };
+		01A33342A845F7910B99D3A32843996F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		113EE7C0B610FB77810B6693EB75EBFF /* TabLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67BBC3670CDBB1B98A57C9183111D36 /* TabLayout.swift */; };
 		2CC1E50263714CB6A9CDA80136D20C98 /* Pods-TabLayout_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA9A660277EC76DF11A084A9341D9A5 /* Pods-TabLayout_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A12786D2771B964F4273CA19F54697E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
+		43D3ACF70FD6BDE98DFCE88862B7E3ED /* TabLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B382600593262367FFD769A8C4D4BFC3 /* TabLayout-dummy.m */; };
 		4983E58ACB29C5CBFC9D4D3E9367C61D /* Pods-TabLayout_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D45839B3B7A6071093DE26DEAAB098D8 /* Pods-TabLayout_Example-dummy.m */; };
-		4EA742681E377ADB00422592 /* TabLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA742671E377ADB00422592 /* TabLayout.swift */; };
 		A4E696B725305E9EFD0B4D41A9C2C512 /* Pods-TabLayout_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC53033B424CB0A3A85CD61DC3BE198D /* Pods-TabLayout_Tests-dummy.m */; };
-		C9A61254C8FB2469993F316E4BD2CDBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		C1D7C68C2D5B4DC9C99130FAF711024A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
 		D2E74FC3A4C3AA9AA0ABF13EA07143BB /* Pods-TabLayout_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AAFB75DFA8A01600653D20DF1294661 /* Pods-TabLayout_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EEB826D214D2511B863D70D44AA1E4BF /* TabLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A45060E7BE5A4DE0BF8342D1331A50A /* TabLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FBD5E285B9F3BAC3D7D227F916F3A996 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		FBD5E285B9F3BAC3D7D227F916F3A996 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		09AAEB0E005A33D57CD3E53CEB53AE7E /* Pods-TabLayout_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TabLayout_Tests.modulemap"; sourceTree = "<group>"; };
+		09AAEB0E005A33D57CD3E53CEB53AE7E /* Pods-TabLayout_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TabLayout_Tests.modulemap"; sourceTree = "<group>"; };
 		0AAFB75DFA8A01600653D20DF1294661 /* Pods-TabLayout_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TabLayout_Example-umbrella.h"; sourceTree = "<group>"; };
 		0F76CA4C26AF546F00E1911F5991D3D0 /* TabLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TabLayout.xcconfig; sourceTree = "<group>"; };
 		1DF750AFFCC74F9138CB18090719BD12 /* Pods-TabLayout_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TabLayout_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -41,25 +42,26 @@
 		467C81C2A28AAF96EE9481AEFFF01D9C /* Pods-TabLayout_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TabLayout_Example.release.xcconfig"; sourceTree = "<group>"; };
 		49F45AE4D87BAB9D70711A1EBB817DE0 /* Pods-TabLayout_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TabLayout_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		4B290B5AFED8E4EF997D187227CC471D /* Pods-TabLayout_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TabLayout_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		4D5E83B653754F65185FF94F7FC66804 /* Pods_TabLayout_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TabLayout_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4EA742671E377ADB00422592 /* TabLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabLayout.swift; sourceTree = "<group>"; };
+		4D5E83B653754F65185FF94F7FC66804 /* Pods_TabLayout_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TabLayout_Tests.framework; path = "Pods-TabLayout_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50F5DEC974A08C1541403CC346A02A3A /* TabLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TabLayout-prefix.pch"; sourceTree = "<group>"; };
 		6148E1DCBEFC6829861413F9A2A169A2 /* Pods-TabLayout_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TabLayout_Tests-resources.sh"; sourceTree = "<group>"; };
+		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		700C2959637FC39C697C5E8D43FE3036 /* Pods-TabLayout_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TabLayout_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		74B450D22C7BE6C0949AEDC32E20D0A4 /* TabLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TabLayout.modulemap; sourceTree = "<group>"; };
+		74B450D22C7BE6C0949AEDC32E20D0A4 /* TabLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TabLayout.modulemap; sourceTree = "<group>"; };
 		7BAE54EDA81D50CDD16F05434C549F10 /* Pods-TabLayout_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TabLayout_Example-resources.sh"; sourceTree = "<group>"; };
+		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		84B2C5325BCA907B3A501CF73C0E1C69 /* Pods-TabLayout_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TabLayout_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A2144D82CB880583A7959C8CD28E44E8 /* TabLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TabLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2144D82CB880583A7959C8CD28E44E8 /* TabLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TabLayout.framework; path = TabLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B382600593262367FFD769A8C4D4BFC3 /* TabLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TabLayout-dummy.m"; sourceTree = "<group>"; };
 		BB7708950BE6368A59D76BA24184240A /* Pods-TabLayout_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TabLayout_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CF47C1AF6798AF892061025843D7DDD9 /* Pods-TabLayout_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TabLayout_Example.modulemap"; sourceTree = "<group>"; };
+		CF47C1AF6798AF892061025843D7DDD9 /* Pods-TabLayout_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TabLayout_Example.modulemap"; sourceTree = "<group>"; };
 		D45839B3B7A6071093DE26DEAAB098D8 /* Pods-TabLayout_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TabLayout_Example-dummy.m"; sourceTree = "<group>"; };
 		D9E3F34998237A2C7A373B2BE56618FE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E514BA2CF735BAB38826A93083A31D66 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E67BBC3670CDBB1B98A57C9183111D36 /* TabLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TabLayout.swift; sourceTree = "<group>"; };
 		EB381B6A05715BEFB27F11A1EA2CC3D1 /* Pods-TabLayout_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TabLayout_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		EBDE9142093C5D003FA40B41BD9AC4C5 /* Pods_TabLayout_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TabLayout_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBDE9142093C5D003FA40B41BD9AC4C5 /* Pods_TabLayout_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TabLayout_Example.framework; path = "Pods-TabLayout_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA9A660277EC76DF11A084A9341D9A5 /* Pods-TabLayout_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TabLayout_Tests-umbrella.h"; sourceTree = "<group>"; };
 		FC53033B424CB0A3A85CD61DC3BE198D /* Pods-TabLayout_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TabLayout_Tests-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -81,11 +83,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B6221FCF937046D282EE8EEDFB9F0FFE /* Frameworks */ = {
+		DB091101DEB10ACD2A53FB5E8900EF37 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9A61254C8FB2469993F316E4BD2CDBB /* Foundation.framework in Frameworks */,
+				C1D7C68C2D5B4DC9C99130FAF711024A /* Foundation.framework in Frameworks */,
+				3A12786D2771B964F4273CA19F54697E /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,20 +105,29 @@
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		2B072155B082BA9D4F319B50FE51687F /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				4EA742671E377ADB00422592 /* TabLayout.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		349458415BA9578542DCDB4C9D0B534F /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
 				24701EA5136A8C3B9E789193C8BFCA12 /* TabLayout */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3912F4B57A20A4A3D8B946DBAD473BC8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E67BBC3670CDBB1B98A57C9183111D36 /* TabLayout.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6EE98446B568159EE277B68FD442AF0 /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		55F88563FE8B876121A84DE3771E877A /* Support Files */ = {
@@ -132,20 +144,12 @@
 			path = "Example/Pods/Target Support Files/TabLayout";
 			sourceTree = "<group>";
 		};
-		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				349458415BA9578542DCDB4C9D0B534F /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				DC8C7447F51EB047455D2C520CB229B6 /* Products */,
 				E6A3920C8A7C7C2891E1B13EFCAD4218 /* Targets Support Files */,
 			);
@@ -190,17 +194,10 @@
 		B0E210C84224253566D27B447EFC97A0 /* TabLayout */ = {
 			isa = PBXGroup;
 			children = (
-				2B072155B082BA9D4F319B50FE51687F /* Classes */,
+				3912F4B57A20A4A3D8B946DBAD473BC8 /* Classes */,
 			);
+			name = TabLayout;
 			path = TabLayout;
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		DC8C7447F51EB047455D2C520CB229B6 /* Products */ = {
@@ -220,6 +217,15 @@
 				8F7AF0C5FE932E46FB21F6E871371D62 /* Pods-TabLayout_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */,
+				7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,8 +297,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1137A3B6E2D7C4B331339A9E86654F2F /* Build configuration list for PBXNativeTarget "TabLayout" */;
 			buildPhases = (
-				8435F07665E80546A801A3A469B4B1D0 /* Sources */,
-				B6221FCF937046D282EE8EEDFB9F0FFE /* Frameworks */,
+				E7454A035458CE8861108B72CBFF7E5B /* Sources */,
+				DB091101DEB10ACD2A53FB5E8900EF37 /* Frameworks */,
 				94D9375167B1D53DB2016D0134895449 /* Headers */,
 			);
 			buildRules = (
@@ -312,14 +318,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
-				TargetAttributes = {
-					1BF786B4A27B367EC28517A9A19C8C49 = {
-						LastSwiftMigration = 0820;
-					};
-					D6E1F4400A9711707F48F8676234E306 = {
-						LastSwiftMigration = 0820;
-					};
-				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -349,20 +347,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8435F07665E80546A801A3A469B4B1D0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				25F13117BEB0116E72EB64B7E9345285 /* TabLayout-dummy.m in Sources */,
-				4EA742681E377ADB00422592 /* TabLayout.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9D0427D4608535BD6B51902AAF94C81C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A4E696B725305E9EFD0B4D41A9C2C512 /* Pods-TabLayout_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7454A035458CE8861108B72CBFF7E5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43D3ACF70FD6BDE98DFCE88862B7E3ED /* TabLayout-dummy.m in Sources */,
+				113EE7C0B610FB77810B6693EB75EBFF /* TabLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,12 +440,44 @@
 				PRODUCT_NAME = Pods_TabLayout_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		6F9BD1A6793CA2DA7C65B30727CCB152 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F76CA4C26AF546F00E1911F5991D3D0 /* TabLayout.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TabLayout/TabLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TabLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TabLayout/TabLayout.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TabLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -563,41 +593,6 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D5F3E1300025FAD4491D10AB6D6392B9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0F76CA4C26AF546F00E1911F5991D3D0 /* TabLayout.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/TabLayout/TabLayout-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TabLayout/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TabLayout/TabLayout.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = TabLayout;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -639,11 +634,10 @@
 			};
 			name = Release;
 		};
-		D807B663F796D3506FC112AE25456A6A /* Release */ = {
+		F878B63EF2B24A2508EA35DCB3050874 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0F76CA4C26AF546F00E1911F5991D3D0 /* TabLayout.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -678,8 +672,8 @@
 		1137A3B6E2D7C4B331339A9E86654F2F /* Build configuration list for PBXNativeTarget "TabLayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D5F3E1300025FAD4491D10AB6D6392B9 /* Debug */,
-				D807B663F796D3506FC112AE25456A6A /* Release */,
+				6F9BD1A6793CA2DA7C65B30727CCB152 /* Debug */,
+				F878B63EF2B24A2508EA35DCB3050874 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
