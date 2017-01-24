@@ -1,0 +1,22 @@
+{
+  "name": "TabLayout",
+  "version": "0.1.0",
+  "summary": "A short description of TabLayout.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/TabLayout",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "hellodigers": "bartosz.kozajda@dige.pl"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/TabLayout.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TabLayout/Classes/**/*"
+}

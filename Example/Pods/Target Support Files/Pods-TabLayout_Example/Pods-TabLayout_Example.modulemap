@@ -1,0 +1,6 @@
+framework module Pods_TabLayout_Example {
+  umbrella header "Pods-TabLayout_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

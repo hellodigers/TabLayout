@@ -1,0 +1,6 @@
+framework module TabLayout {
+  umbrella header "TabLayout-umbrella.h"
+
+  export *
+  module * { export * }
+}
