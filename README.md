@@ -1,28 +1,25 @@
 # TabLayout
-
-[![CI Status](http://img.shields.io/travis/hellodigers/TabLayout.svg?style=flat)](https://travis-ci.org/hellodigers/TabLayout)
 [![Version](https://img.shields.io/cocoapods/v/TabLayout.svg?style=flat)](http://cocoapods.org/pods/TabLayout)
-[![License](https://img.shields.io/cocoapods/l/TabLayout.svg?style=flat)](http://cocoapods.org/pods/TabLayout)
-[![Platform](https://img.shields.io/cocoapods/p/TabLayout.svg?style=flat)](http://cocoapods.org/pods/TabLayout)
 
-## Example
+## Screenshots
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
+![gif](http://i.imgur.com/lOMhYSj.gif)
 
 ## Installation
 
-TabLayout is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+### Manually
 
-```ruby
-pod "TabLayout"
-```
+Copy TabLayout.swift to your project.
+
+### Cocoapods #TODO
+
+## Demo
+
+To run the example project, clone the repo, and run pod install from the Example directory first.
 
 ## Author
 
-hellodigers, bartosz.kozajda@dige.pl
+Digers, bartosz.kozajda@dige.pl
 
 ## License
 
